@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+rag_assistant.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vector database (if you don’t want it in Git)
+vector_db/
+rule_books/
+
+outputs/*
+!outputs/.gitkeep
